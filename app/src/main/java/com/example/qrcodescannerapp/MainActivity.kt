@@ -89,7 +89,7 @@ fun QrCodeScanner() {
 
             AndroidView(
                 factory = { context ->
-                    // this view render caera
+                    // this view render camera
                     val previewView = PreviewView(context)
                     // load camera image
                     val preview = androidx.camera.core.Preview.Builder().build()
