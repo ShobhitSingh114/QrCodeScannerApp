@@ -65,6 +65,7 @@ fun QrCodeScannerAppTheme(
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,
+        shapes = Shapes,
         content = content
     )
 }
